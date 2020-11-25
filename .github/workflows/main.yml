@@ -31,7 +31,7 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run Surge
-        run: surge ./BootCamp_Tariq.surge.sh --token ${{secrets.SURGE_TOKEN}}         
+        run: surge ./ BootCamp2020_Tariq.surge.sh --token ${{secrets.SURGE_TOKEN}}         
          
 
       # Runs a set of commands using the runners shell
